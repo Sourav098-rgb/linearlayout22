@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_margin="20sp"
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_name"
+        android:id="@+id/edtname"
+        android:hint="@string/enter_your_name"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:maxWidth="300dp"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_your_contact"
+            android:id="@+id/edtcontact"
+            android:hint="@string/enter_your_number"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:maxWidth="500dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_mail"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_margin="20sp"
+            />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_your_e_mail"
+            android:id="@+id/edtmail"
+            android:hint="@string/enter_your_name"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:maxWidth="300dp"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_margin="20sp"
+            />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_address"
+            android:id="@+id/edtaddress"
+            android:hint="@string/enter_your_address"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:maxWidth="300dp"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_password"
+           android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/edtPassword"
+            android:layout_margin="10sp"
+            android:inputType="textPassword"
+            android:maxWidth="500dp"
+            android:singleLine="true"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_password"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_again"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:id="@+id/edtConfirmPassword"
+            android:inputType="textPassword"
+            android:layout_margin="10sp"
+            android:maxWidth="500dp"
+            android:singleLine="true"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="#72008062"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/btncancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="#72008062"
+            android:layout_weight="1"
+            android:text="@string/cancle" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

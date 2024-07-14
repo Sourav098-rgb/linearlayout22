@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">linear layout2</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="contact">Contact</string>
+    <string name="enter_your_contact">Enter your contact</string>
+    <string name="e_mail">E-mail</string>
+    <string name="enter_your_e_mail">Enter your E-mail</string>
+    <string name="enter_your_number">Enter your number</string>
+    <string name="address">Address</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password again</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="your_address">your address</string>
+    <string name="save">save</string>
+    <string name="cancle">cancle</string>
+
+
+</resources>
